@@ -1,0 +1,22 @@
+{
+    "image1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICIiAAAAAAAiIiIAAAAAACIiIgIAAAAAIiIiAgAAAAAiIiICAAAAACIiIgIAAAAAIiIiAgAAAAAgIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "ball"
+    },
+    "image2": {
+        "data": "hwQQAAYAAAAAAAAAAAAAACAiAgAgIgIAICICACAiAgAgIgIAICICACAiAgAgIgIAICICACAiAgAgIgIAAAAAAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "paddle"
+    },
+    "image3": {
+        "data": "hwQNAAgAAAAAAAAAAFAFAABVVQBQVVUFUFVVVVVVVVVVVVVVVVVVBVBVVQUAVVUAAFAFAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "sun"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

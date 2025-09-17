@@ -14,6 +14,16 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "sun"
     },
+    "image4": {
+        "data": "hwQQAAEAAAAAAAAAAAAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAAAAAAAAAAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Paddle"
+    },
+    "image5": {
+        "data": "hwQHAAYAAAAAVQAAUFUFAFVVVQBVVVUAVVVVAFBVBQAAVQAA",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Sun"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",

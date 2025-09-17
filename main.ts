@@ -123,9 +123,7 @@ let level = 0
 level = 1
 scoreNeeded = 10
 // Create the paddle at the bottom
-let paddle = sprites.create(img`
-    . . 2 2 2 2 2 2 2 2 2 2 2 2 . . 
-    `, SpriteKind.Player)
+let paddle = sprites.create(assets.image`Paddle`, SpriteKind.Player)
 paddle.setStayInScreen(true)
 paddle.y = 110
 controller.moveSprite(paddle, 100, 0)
@@ -135,14 +133,7 @@ info.setScore(0)
 // Spawn first star
 createStar()
 // Create the Sun (ball)
-Sun = sprites.create(img`
-    . . 5 5 5 . . 
-    . 5 5 5 5 5 . 
-    5 5 5 5 5 5 5 
-    5 5 5 5 5 5 5 
-    . 5 5 5 5 5 . 
-    . . 5 5 5 . . 
-    `, SpriteKind.Projectile)
+Sun = sprites.create(assets.image`Sun`, SpriteKind.Projectile)
 Sun.setVelocity(50, 50)
 Sun.setBounceOnWall(true)
 /**

@@ -42,6 +42,19 @@ namespace myImages {
 . . . 5 5 5 5 5 5 . . . . 
 . . . . 5 5 5 . . . . . . 
 `;
+            case "image4":
+            case "Paddle":return img`
+. . 2 2 2 2 2 2 2 2 2 2 2 2 . . 
+`;
+            case "image5":
+            case "Sun":return img`
+. . 5 5 5 . . 
+. 5 5 5 5 5 . 
+5 5 5 5 5 5 5 
+5 5 5 5 5 5 5 
+. 5 5 5 5 5 . 
+. . 5 5 5 . . 
+`;
         }
         return null;
     })
